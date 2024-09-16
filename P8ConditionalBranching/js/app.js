@@ -3,7 +3,7 @@ const currentYear = 2024;
 let ageOfPerson = currentYear - birthYear;
 console.log(ageOfPerson);
 
-const favoriteNumber = 21;
+const favoriteNumber = 20;
 
 // Save to a let variable named isChild, when the age is from 0 till 10.
 let isChild = (ageOfPerson >= 0) && (ageOfPerson <= 10);
@@ -37,7 +37,18 @@ else {
   console.log("age is greater");
 }
 
+if (favoriteNumber % 2 === 0) {
+  console.log("Your number is even");
+}
+else {
+  console.log("Your number is odd");
+}
 
+console.log(favoriteNumber % 2 === 0 ? "Your number is even" : "Your number is odd");
+
+
+// let favoriteNumber = isEven ? "Your number is even" : "Your number is odd";
+// console.log(favoriteNumber);
 
 // console.log("You are a child");
 // console.log("You are a teenager");
