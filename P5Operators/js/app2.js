@@ -52,10 +52,17 @@ minOutput = Math.floor(secondsInput / 60);
 console.log(minOutput);
 
 let secOutput;
-secOutput = secondsInput - minOutput + 60;
+// secOutput = secondsInput - minOutput * 60;
+secOutput = secondsInput % 60;
 console.log(secOutput);
+
 minSecOutput = minOutput + "minute(s) and" + secOutput + "second(s)";
 console.log(minSecOutput);
+
+
+
+
+
 
 
 
