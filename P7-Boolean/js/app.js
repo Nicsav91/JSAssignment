@@ -17,7 +17,7 @@
 // Try with different birth years and account for edge cases (if birthYear is 2030?)
 
 const birthYear = 2000;
-const currentYear = 2014;
+const currentYear = 2024;
 let agedOfPerson = currentYear - birthYear;
 
 // Save to a letvariable named isChild, when the age is from 0 till 10.
