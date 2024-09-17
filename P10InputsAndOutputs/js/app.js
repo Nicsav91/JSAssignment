@@ -44,15 +44,19 @@ if (firstNumber === 2){
 }
 console.log(numberToString(2));
 
+let score = 0;
+
 function equalNumbers(firstNumber, secondNumber) {
   if (firstNumber === secondNumber){
     return "Both numbers are equal!";
   }
   if (firstNumber > secondNumber){
+    score++
     return "First number is greater!";
   }
   if (firstNumber < secondNumber){
+    score--
     return "Second number is greater!";
   }
 }
-console.log(equalNumbers(5, 5));
+console.log(equalNumbers(6, 4));
