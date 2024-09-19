@@ -3,7 +3,7 @@ firstText.innerHTML = "Nicolinas Page";
 firstText.style.color = "Green";
 
 // const firstButton = document.getElementById("firstButton");
- 
+
 const firstButton = document.querySelector("#firstButton");
 firstButton.innerHTML = "Click me!";
 firstButton.style.color = "pink";
