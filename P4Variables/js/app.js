@@ -10,11 +10,15 @@ console.log(line2);
 console.log(numberOfBottles - 1);
 console.log(line1);
 
+console.log("radbryt");
+
 console.log(numberOfBottles);
 console.log(line1);
 console.log(line2);
 console.log(--numberOfBottles);
 console.log(line1);
+
+console.log("radbryt");
 
 numberOfBottles = 0;
 

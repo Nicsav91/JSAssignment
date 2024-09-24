@@ -97,3 +97,21 @@ function powerUpNoReturn () {
   console.log(Math.pow(4, 24)); // Output: 281474976710656
 }
 powerUpNoReturn ();
+console.log();
+
+
+// Loop Stretch Exercise, same verse but use a for loop to decrease the number of bottles from 99 to 0.
+let numberOfBottles = 10;
+const line1 = " green bottles hanging on the wall,";
+const line2 = " and if one green bottle, should accidently fall, there will be";
+let line3 = "There`ll be no more green bottles hanging on the wall!";
+
+
+for (let numberOfBottles = 10; numberOfBottles >= 0; numberOfBottles--) {
+  console.log(numberOfBottles + line1 + line2);
+}
+
+let numberOfbottles; // recon this is not the exercise, but i wanted to add it
+ if (numberOfBottles === 0);
+ console.log(line3);
+
