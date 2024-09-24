@@ -113,5 +113,5 @@ for (let numberOfBottles = 10; numberOfBottles >= 0; numberOfBottles--) {
 
 let numberOfbottles; // recon this is not the exercise, but i wanted to add it
  if (numberOfBottles === 0);
- console.log(line3);
+   console.log(line3);
 
