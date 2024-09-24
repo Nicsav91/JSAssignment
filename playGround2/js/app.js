@@ -1,4 +1,4 @@
-// Document Elements 
+// Document Elements
 // Looks for "text0". Assign that to the variable called textField0.
 const textField0 = document.getElementById('text0');
 
